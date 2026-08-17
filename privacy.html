@@ -3,296 +3,65 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="LinkMemo Privacy Policy.">
+    <meta name="description" content="LinkMemo Privacy Policy and account deletion instructions.">
     <title>LinkMemo Privacy Policy</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <a class="skip-link" href="#content">Skip to content</a>
-    <header class="site-header">
-      <div class="header-inner">
-        <a class="brand" href="index.html">LinkMemo Legal</a>
-        <nav class="site-nav" aria-label="Primary navigation">
-          <a href="index.html">Overview</a>
-          <a href="privacy.html" aria-current="page">Privacy</a>
-          <a href="terms.html">Terms</a>
-        </nav>
-      </div>
-    </header>
-
+    <header class="site-header"><div class="header-inner"><a class="brand" href="index.html">LinkMemo Legal</a><nav class="site-nav" aria-label="Primary navigation"><a href="index.html">Overview</a><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav></div></header>
     <main id="content" class="page-shell">
-      <nav class="language-switcher" aria-label="Language">
-        <a href="#en" lang="en">English</a>
-        <a href="#zh-cn" lang="zh-CN">简体中文</a>
-        <a href="#zh-tw" lang="zh-Hant">繁體中文</a>
-        <a href="#ja" lang="ja">日本語</a>
-      </nav>
-
+      <nav class="language-switcher" aria-label="Language"><a href="#en" lang="en">English</a><a href="#zh-cn" lang="zh-CN">简体中文</a><a href="#zh-tw" lang="zh-Hant">繁體中文</a><a href="#ja" lang="ja">日本語</a></nav>
       <div class="language-stack">
         <article id="en" class="language-panel" lang="en">
-          <header class="document-header">
-            <h1>LinkMemo Privacy Policy</h1>
-            <p class="document-summary">
-              LinkMemo is a local-first link management application. This policy
-              explains how LinkMemo accesses, processes, stores, and protects data.
-            </p>
-            <dl class="document-meta">
-              <div><dt>Document version</dt><dd>1.0</dd></div>
-              <div><dt>Effective date</dt><dd><time datetime="2026-07-28">28 July 2026</time></dd></div>
-              <div><dt>Developer</dt><dd>LinkMemo, Hong Kong</dd></div>
-              <div><dt>Privacy contact</dt><dd><a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a></dd></div>
-            </dl>
-          </header>
-          <section class="legal-section">
-            <h2>1. Data stored locally</h2>
-            <p>LinkMemo stores on your device the links you add, titles, page summaries, source information, notes, folders, favorite and pinned states, private flags, attachments, and application preferences such as language, theme, text size, sorting, layout, clipboard detection, and Private Space auto-lock settings.</p>
-            <p>LinkMemo does not provide a LinkMemo account, a LinkMemo-owned cloud synchronization service, or a LinkMemo server that stores this content.</p>
-          </section>
-          <section class="legal-section">
-            <h2>2. Local database and attachment protection</h2>
-            <p>The application database and note attachments are encrypted with keys generated on the device and kept in Android secure system storage. This protection is local to the device; exported backups do not have a separate backup password.</p>
-            <p>Private Space uses Android system authentication. LinkMemo receives only the authentication result and does not read or store fingerprints, facial data, device passwords, PINs, or patterns. A device without configured system credentials follows the application’s current credential-free behavior. No device or local protection can guarantee absolute security.</p>
-          </section>
-          <section class="legal-section">
-            <h2>3. Clipboard link detection</h2>
-            <p>When “Automatically detect clipboard” is enabled, LinkMemo reads plain text from the clipboard when the application starts or returns to the foreground. It tries to extract the first supported web link. Empty text, text without a valid link, previously handled clipboard content, and links already stored are ignored.</p>
-            <p>LinkMemo does not continuously monitor the clipboard while running in the background. A detected link is not saved automatically: LinkMemo shows a short import prompt, and the user must choose to continue to the add-link screen.</p>
-          </section>
-          <section class="legal-section">
-            <h2>4. System share import and device features</h2>
-            <p>When a user chooses LinkMemo from Android’s system share menu, Android passes the selected text or link to LinkMemo. LinkMemo extracts a supported link and shows the import screen so the user can review the item before saving it.</p>
-            <p>Gallery, camera, and file pickers are used only for user-initiated attachment selection, QR-code saving, and backup selection. When the user shares or exports content from LinkMemo, Android sends it to the third-party application selected by the user, which then handles it under its own policy.</p>
-          </section>
-          <section class="legal-section">
-            <h2>5. Network requests and third parties</h2>
-            <p>To retrieve a page title, description, image, or source information, resolve a short link, or open an original link, LinkMemo may contact the destination website and public metadata services. Those services may receive the requested URL, the device IP address, User-Agent, and other information normally required to serve a page.</p>
-            <p>Third-party websites and applications process data under their own policies. LinkMemo does not control their content, redirects, availability, security, or privacy practices.</p>
-          </section>
-          <section class="legal-section">
-            <h2>6. Local backup, restore, and export</h2>
-            <p>A LinkMemo backup contains regular and private links, folders, active attachments, and application settings. It excludes Recently Deleted items. Import is performed only after user selection and confirmation and completely replaces LinkMemo data on the destination device.</p>
-            <p>If device credentials exist, export requests Android system authentication; without device credentials, export follows the application’s credential-free behavior. Backups have no independent password protection. Anyone who obtains a backup may import and read regular and private content. The user is responsible for securely storing and deleting exported copies.</p>
-          </section>
-          <section class="legal-section">
-            <h2>7. Google Play Billing</h2>
-            <p>Google Play Billing handles the Full Version checkout, payment processing, official promotional-code redemption, refunds under Google Play rules, and purchase restoration through the Google Play account. LinkMemo receives the product identifier, purchase status, and entitlement information needed to unlock or restore the Full Version locally.</p>
-            <p>LinkMemo does not receive or store a bank-account number, debit-card or credit-card details, payment password, or the promotional or redemption code entered into Google Play. The Full Version is a one-time, non-renewing purchase. Because LinkMemo has no purchase-validation server, the local client cannot promise immediate detection of every refund or revocation.</p>
-          </section>
-          <section class="legal-section">
-            <h2>8. Retention, export, clearing, and deletion</h2>
-            <ul>
-              <li>Local data remains on the device until the user edits or deletes it, clears LinkMemo’s application data, or uninstalls LinkMemo.</li>
-              <li>Normally deleted links enter Recently Deleted and are scheduled for permanent deletion after 30 days; the user may permanently delete them earlier.</li>
-              <li>The backup function is the available local export mechanism. Exported backup files are controlled by the user.</li>
-              <li>Clearing application data or uninstalling LinkMemo removes the application’s local data, subject to Android and device backup behavior, but does not delete backup copies already saved or shared elsewhere.</li>
-              <li>Because there is no LinkMemo account or LinkMemo cloud service, there is no server-side LinkMemo account or cloud record to delete.</li>
-            </ul>
-          </section>
-          <section class="legal-section">
-            <h2>9. Data sharing, sale, changes, and contact</h2>
-            <p>LinkMemo does not sell user data and does not upload local content to a LinkMemo-owned server. Data reaches a third party only when required for a user-initiated feature, including metadata retrieval, opening a link, system sharing, backup transfer, or Google Play Billing.</p>
-            <p>LinkMemo is not specifically directed to children. Material policy changes may be reflected in an updated document version, effective date, or appropriate application notice. Privacy questions may be sent to <a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a>.</p>
-          </section>
+          <header class="document-header"><h1>LinkMemo Privacy Policy</h1><p class="document-summary">LinkMemo is a local-first link manager. This policy describes the data used by local features, LinkMemo accounts, Google Play purchases, and optional AI enhancement.</p><dl class="document-meta"><div><dt>Document version</dt><dd>1.2</dd></div><div><dt>Effective date</dt><dd><time datetime="2026-08-17">17 August 2026</time></dd></div><div><dt>Developer</dt><dd>LinkMemo, Hong Kong</dd></div></dl></header>
+          <section class="legal-section"><h2>1. Local-first data</h2><p>Links, titles, webpage summaries, notes, folders, pinned and private status, attachments, recordings, cached webpage images, and preferences are stored on the device. A LinkMemo account does not synchronize the local links database, folders, attachments, recordings, Private Space database, or backups.</p></section>
+          <section class="legal-section"><h2>2. Device features and local protection</h2><p>The local database and note attachments use a device-generated key held in system secure storage. Private Space uses Android system authentication; LinkMemo receives only success, cancellation, or failure and does not read fingerprints, facial data, screen-lock passwords, or patterns. Clipboard detection runs only while enabled and the app is in use. Share import, photo, camera, microphone, and file access occur only for features initiated by the user.</p></section>
+          <section class="legal-section"><h2>3. LinkMemo account and server data</h2><p>Local core features work without signing in. Google sign-in and Supabase process the identity tokens needed for authentication. The backend stores the Supabase UID and necessary account details supplied by Google, such as email address and display name. The account is used for purchase ownership, restoring Full and LinkMemo Pro entitlements across devices, AI quota, and account deletion. The Google Play paying account may differ from the Google account used for LinkMemo.</p></section>
+          <section class="legal-section"><h2>4. Web analysis and Gemini AI</h2><p>Normal metadata analysis connects to the target website and public endpoints. When the user deliberately runs LinkMemo Pro AI enhancement, the request sent through a Supabase Edge Function to Google Gemini may contain the title, description, source site and domain, full or canonical URL, a webpage excerpt limited to about 4,000 characters, image-candidate URLs and descriptions, and, when useful and safely available, one representative image. Gemini is not authorized to sign in to websites, this feature does not use Google Search, and it does not watch videos.</p><p>Private Space data is subject to an explicit in-app disclosure before it is sent; the user may choose not to see the reminder again. Original attachments, recordings, purchase credentials, login credentials, the complete local database, and unrelated personal data are not sent to AI. AI output is stored in the link’s local record.</p></section>
+          <section class="legal-section"><h2>5. Google Play purchases and server entitlements</h2><p>Google Play handles Full and LinkMemo Pro payment, subscription, refund, and revocation. Purchase credentials are verified by the LinkMemo backend with the Google Play Developer API and bound to a Supabase UID. An order ID or purchase token is not account identity. One purchase credential can be bound to only one LinkMemo account and is not transferred automatically. Server entitlements are authoritative; the app stores only a recent trusted offline cache. The backend also stores purchase state, subscription periods, AI quota, idempotent request state, and necessary security logs.</p></section>
+          <section class="legal-section"><h2>6. Backups and local retention</h2><p>A full backup may contain regular and private links, folders, valid attachments, and app settings. It excludes Recently Deleted. Every user may export a backup; importing one requires Full. Import merges without deleting existing data or replacing device settings. Backups have no separate password protection and must be kept securely. Local data remains until it is deleted, app data is cleared, or LinkMemo is uninstalled. Exported or shared copies are controlled by the user.</p></section>
+          <section id="account-deletion-en" class="legal-section"><h2>7. Delete a LinkMemo account</h2><p>Deletion can be requested inside LinkMemo or by emailing <a href="mailto:zengqb2315509134@gmail.com?subject=LinkMemo%20account%20deletion%20request">zengqb2315509134@gmail.com</a>. For an email request, use the email address associated with the LinkMemo account and complete reasonable ownership verification. Never send a password, login token, purchase token, or payment credential.</p><p>If no LinkMemo Pro period is active, the server account and associated account data are deleted as soon as reasonably possible. If a free or paid period is already active, LinkMemo stops future auto-renewal and schedules deletion after the current period ends. After deletion, Full, LinkMemo Pro, Gift history, and AI quota cannot be restored or transferred. Device-local links, attachments, recordings, and backups are not deleted remotely.</p><p>The raw purchase token is deleted. A non-reassignable token hash and minimum status record may be retained without an active account association to prevent an old purchase from being claimed by another account and where required for legal, financial, security, or fraud-prevention purposes.</p></section>
+          <section class="legal-section"><h2>8. Service providers, security, and contact</h2><p>LinkMemo does not sell user data. Google provides sign-in and Google Play, Supabase provides identity, database, and Edge Functions, and Google Gemini processes AI requests. These providers may process data outside the user’s region under their applicable terms. LinkMemo does not place full Authorization values, purchase tokens, Gemini keys, or complete AI request bodies in app logs. Reduced or hashed event identifiers, error classes, usage, and security information may be retained for service operation, duplicate-charge prevention, diagnostics, and abuse prevention.</p><p>Developer: LinkMemo<br>Location: Hong Kong<br>Privacy and deletion contact: <a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a></p></section>
         </article>
 
         <article id="zh-cn" class="language-panel" lang="zh-CN">
-          <header class="document-header">
-            <h1>LinkMemo 隐私政策</h1>
-            <p class="document-summary">LinkMemo是一款以本地存储为主的链接管理应用。本政策说明LinkMemo如何访问、处理、保存和保护数据。</p>
-            <dl class="document-meta">
-              <div><dt>文档版本</dt><dd>1.0</dd></div>
-              <div><dt>生效日期</dt><dd><time datetime="2026-07-28">2026年7月28日</time></dd></div>
-              <div><dt>开发者名称</dt><dd>LinkMemo（香港）</dd></div>
-              <div><dt>隐私联系邮箱</dt><dd><a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a></dd></div>
-            </dl>
-          </header>
-          <section class="legal-section">
-            <h2>1. 本地保存的数据</h2>
-            <p>LinkMemo会在设备本地保存用户主动添加的链接、标题、网页摘要、来源信息、备注、文件夹、收藏与置顶状态、私密标记、附件，以及语言、主题、字号、排序、布局、剪贴板检测和私密空间自动锁定等应用设置。</p>
-            <p>LinkMemo不提供LinkMemo账号、自有云同步服务，也没有保存这些内容的LinkMemo服务器。</p>
-          </section>
-          <section class="legal-section">
-            <h2>2. 本地数据库与附件保护</h2>
-            <p>应用数据库和备注附件使用设备本地生成并保存在Android系统安全存储中的密钥进行加密。该保护仅适用于设备本地；导出的备份文件没有独立备份密码。</p>
-            <p>私密空间使用Android系统身份验证。LinkMemo只接收验证结果，不读取或保存指纹、面容、设备密码、PIN或图案。没有设置系统凭据的设备会按照应用当前的免凭据规则运行。任何设备或本地保护都无法保证绝对安全。</p>
-          </section>
-          <section class="legal-section">
-            <h2>3. 剪贴板链接检测</h2>
-            <p>启用“自动检测剪贴板”后，LinkMemo会在应用启动或重新回到前台时读取剪贴板纯文本，并尝试提取其中第一个受支持的网页链接。空文本、不含有效链接的文本、已经处理过的剪贴板内容以及已保存的重复链接会被忽略。</p>
-            <p>LinkMemo不会在后台持续监控剪贴板，也不会自动保存检测到的链接。应用只会短暂显示导入提示，用户需要主动点击后才会进入添加链接页面。</p>
-          </section>
-          <section class="legal-section">
-            <h2>4. 系统分享导入与设备功能</h2>
-            <p>用户从Android系统分享菜单选择LinkMemo时，Android会把用户选择的文本或链接交给LinkMemo。LinkMemo会提取受支持的链接并显示导入页面，由用户检查后决定是否保存。</p>
-            <p>相册、相机和文件选择器仅用于用户主动选择附件、保存二维码或选择备份。用户从LinkMemo分享或导出内容时，Android会把内容交给用户选择的第三方应用，后续处理受该第三方政策约束。</p>
-          </section>
-          <section class="legal-section">
-            <h2>5. 网络请求与第三方</h2>
-            <p>为获取网页标题、描述、图片或来源信息、解析短链接或打开原链接，LinkMemo可能连接目标网站及公开元数据服务。这些服务可能收到请求URL、设备IP地址、User-Agent以及正常提供网页所需的信息。</p>
-            <p>第三方网站和应用按照其自身政策处理数据。LinkMemo无法控制其内容、跳转、可用性、安全性或隐私做法。</p>
-          </section>
-          <section class="legal-section">
-            <h2>6. 本地备份、恢复与导出</h2>
-            <p>LinkMemo备份包含普通和私密链接、文件夹、有效附件及应用设置，但不包含最近删除。导入只会在用户选择文件并确认后进行，并会完全替换目标设备中的LinkMemo数据。</p>
-            <p>设备设有系统凭据时，导出会请求Android系统验证；没有系统凭据时，导出按照应用当前的免凭据规则进行。备份没有独立密码保护，任何取得备份的人都可能导入并读取普通及私密内容。用户负责安全保管和删除导出的副本。</p>
-          </section>
-          <section class="legal-section">
-            <h2>7. Google Play Billing</h2>
-            <p>Google Play Billing负责完整版结账与付款处理、官方促销码兑换、依Google Play规则进行的退款，以及通过Google Play账号恢复购买。LinkMemo会接收在本地解锁或恢复完整版所需的商品标识、购买状态和权益信息。</p>
-            <p>LinkMemo不会接收或保存银行账户、借记卡或信用卡资料、付款密码，也不会接收用户在Google Play输入的促销码或兑换码。完整版是一次性买断，不是订阅且不会自动续费。由于LinkMemo没有购买验证服务器，本地客户端无法承诺立即识别每一次退款或权益撤销。</p>
-          </section>
-          <section class="legal-section">
-            <h2>8. 数据保留、导出、清除与删除</h2>
-            <ul>
-              <li>本地数据会保留在设备上，直至用户编辑或删除、清除LinkMemo应用数据或卸载LinkMemo。</li>
-              <li>普通删除的链接会进入最近删除，并计划在30天后永久清除；用户可以提前永久删除。</li>
-              <li>备份功能是当前提供的本地导出方式，导出的备份文件由用户控制。</li>
-              <li>清除应用数据或卸载LinkMemo会移除应用本地数据，但仍受Android和设备备份行为影响；已经保存或分享至其他位置的备份副本不会因此删除。</li>
-              <li>由于没有LinkMemo账号或云服务，因此不存在需要删除的LinkMemo服务端账号或云端记录。</li>
-            </ul>
-          </section>
-          <section class="legal-section">
-            <h2>9. 数据分享、出售、政策变更与联系</h2>
-            <p>LinkMemo不会出售用户数据，也不会把本地内容上传到LinkMemo自有服务器。只有用户主动使用网页信息获取、打开链接、系统分享、备份传输或Google Play Billing等功能时，相关数据才会按功能需要交给对应第三方。</p>
-            <p>LinkMemo并非专门面向儿童设计。若政策发生重要变化，会更新文档版本、生效日期或在应用中提供适当通知。隐私问题请联系<a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a>。</p>
-          </section>
+          <header class="document-header"><h1>LinkMemo 隐私政策</h1><p class="document-summary">LinkMemo是一款本地优先的链接管理应用。本政策说明本地功能、LinkMemo账号、Google Play购买及可选AI增强实际处理的数据。</p><dl class="document-meta"><div><dt>文档版本</dt><dd>1.2</dd></div><div><dt>生效日期</dt><dd><time datetime="2026-08-17">2026年8月17日</time></dd></div><div><dt>开发者</dt><dd>LinkMemo（香港）</dd></div></dl></header>
+          <section class="legal-section"><h2>1. 本地优先的数据</h2><p>链接、标题、网页摘要、备注、文件夹、置顶和私密状态、附件、录音、网页图片缓存及设置保存在设备本地。LinkMemo账号不会同步本地链接数据库、文件夹、附件、录音、私密空间数据库或备份。</p></section>
+          <section class="legal-section"><h2>2. 设备功能与本地保护</h2><p>本地数据库和备注附件使用设备生成并保存在系统安全存储中的密钥保护。私密空间使用Android系统身份验证；LinkMemo只接收成功、取消或失败结果，不读取指纹、面容、锁屏密码或图案。剪贴板检测仅在功能开启且应用正在使用时运行。分享导入、相册、相机、麦克风和文件访问仅用于用户主动发起的功能。</p></section>
+          <section class="legal-section"><h2>3. LinkMemo账号与服务端数据</h2><p>本地核心功能无需登录。Google登录和Supabase处理身份验证所需令牌；服务端保存Supabase UID及Google提供的邮箱、显示名称等必要账号资料。账号用于购买归属、跨设备恢复Full与LinkMemo Pro权益、AI额度和账号删除。Google Play付款账号可以与LinkMemo登录Google账号不同。</p></section>
+          <section class="legal-section"><h2>4. 网页分析与Gemini AI</h2><p>普通元数据分析会连接目标网站及其公开接口。用户主动运行LinkMemo Pro AI增强时，经Supabase Edge Function发送给Google Gemini的数据可能包括标题、描述、来源网站和域名、完整或规范化URL、最多约4000字符的网页正文摘录、图片候选URL与说明，以及在有必要且可安全取得时的一张代表图片。Gemini不会被授权登录网站，该功能不使用Google Search，也不会观看视频。</p><p>私密空间数据发送前会显示明确提示，用户可以选择不再提示。原始附件、录音、购买凭证、登录凭证、完整本地数据库和无关个人数据不会发送给AI。AI输出会保存到该链接的本地记录。</p></section>
+          <section class="legal-section"><h2>5. Google Play购买与服务端权益</h2><p>Google Play负责Full和LinkMemo Pro的付款、订阅、退款与撤销。购买凭证由LinkMemo服务端通过Google Play Developer API验证并绑定Supabase UID。orderId或purchaseToken不是账号身份；一个购买凭证只能绑定一个LinkMemo账号且不会自动转移。服务端权益是长期权威，应用只保存最近一次可信的离线缓存。服务端还保存购买状态、订阅周期、AI额度、幂等请求状态及必要安全日志。</p></section>
+          <section class="legal-section"><h2>6. 备份与本地保留</h2><p>完整备份可能包含普通和私密链接、文件夹、有效附件及应用设置，不包含最近删除。所有用户均可导出备份，导入需要Full。导入采用合并方式，不删除现有数据，也不覆盖设备设置。备份没有独立密码保护，应妥善保管。本地数据会保留到用户删除、清除应用数据或卸载；已经导出或分享的副本由用户管理。</p></section>
+          <section id="account-deletion-zh-cn" class="legal-section"><h2>7. 删除LinkMemo账号</h2><p>用户可以在LinkMemo应用内申请删除，也可以发送邮件至<a href="mailto:zengqb2315509134@gmail.com?subject=LinkMemo%20账号删除申请">zengqb2315509134@gmail.com</a>。邮件申请应使用LinkMemo账号关联邮箱并完成合理的归属确认。请勿发送密码、登录Token、purchaseToken或付款凭证。</p><p>没有有效LinkMemo Pro周期时，服务端账号及相关账号数据会尽快删除；如仍有已生效的免费或付费周期，LinkMemo会先停止后续自动续订，并计划在当前周期结束后删除。删除后Full、LinkMemo Pro、Gift记录和AI额度不能恢复或转移。设备本地链接、附件、录音和备份不会被远程删除。</p><p>原始购买Token会被删除。为防止旧购买被其他账号重新认领，以及满足必要的法律、财务、安全或反欺诈要求，可能保留不再关联有效账号、不可重新绑定的Token哈希及最少状态记录。</p></section>
+          <section class="legal-section"><h2>8. 服务提供商、安全与联系</h2><p>LinkMemo不出售用户数据。Google提供登录和Google Play服务，Supabase提供身份、数据库和Edge Functions，Google Gemini处理AI请求。这些服务可能依适用条款在用户所在地区以外处理数据。LinkMemo不会在应用日志记录完整Authorization、purchaseToken、Gemini密钥或完整AI请求正文；服务端可能保留缩减或哈希化的事件标识、错误类别、用量和安全信息，用于服务运行、防止重复扣次、故障诊断和防范滥用。</p><p>开发者：LinkMemo<br>所在地：香港<br>隐私与删除联系邮箱：<a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a></p></section>
         </article>
 
         <article id="zh-tw" class="language-panel" lang="zh-Hant">
-          <header class="document-header">
-            <h1>LinkMemo 私隱政策</h1>
-            <p class="document-summary">LinkMemo是一款以本機儲存為主的連結管理應用程式。本政策說明LinkMemo如何存取、處理、保存及保護資料。</p>
-            <dl class="document-meta">
-              <div><dt>文件版本</dt><dd>1.0</dd></div>
-              <div><dt>生效日期</dt><dd><time datetime="2026-07-28">2026年7月28日</time></dd></div>
-              <div><dt>開發者名稱</dt><dd>LinkMemo（香港）</dd></div>
-              <div><dt>私隱聯絡電郵</dt><dd><a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a></dd></div>
-            </dl>
-          </header>
-          <section class="legal-section">
-            <h2>1. 本機儲存的資料</h2>
-            <p>LinkMemo會在裝置本機儲存用戶主動加入的連結、標題、網頁摘要、來源資料、備註、資料夾、收藏與置頂狀態、私密標記、附件，以及語言、主題、字體大小、排序、版面、剪貼簿偵測和私密空間自動鎖定等設定。</p>
-            <p>LinkMemo不提供LinkMemo帳戶、自有雲端同步服務，也沒有儲存這些內容的LinkMemo伺服器。</p>
-          </section>
-          <section class="legal-section">
-            <h2>2. 本機資料庫與附件保護</h2>
-            <p>應用程式資料庫和備註附件使用裝置本機產生並存於Android系統安全儲存區的密鑰加密。此保護只適用於裝置本機；匯出的備份檔案沒有獨立備份密碼。</p>
-            <p>私密空間使用Android系統驗證。LinkMemo只接收驗證結果，不會讀取或保存指紋、面容、裝置密碼、PIN或圖案。未設定系統憑據的裝置會按照應用程式目前的免憑據規則運作。任何裝置或本機保護均無法保證絕對安全。</p>
-          </section>
-          <section class="legal-section">
-            <h2>3. 剪貼簿連結偵測</h2>
-            <p>啟用「自動偵測剪貼簿」後，LinkMemo會在應用程式啟動或重新回到前景時讀取剪貼簿純文字，並嘗試擷取第一個支援的網頁連結。空白文字、不含有效連結的文字、已處理的剪貼簿內容及已儲存的重複連結會被忽略。</p>
-            <p>LinkMemo不會在背景持續監察剪貼簿，也不會自動儲存偵測到的連結。應用程式只會短暫顯示匯入提示，用戶須主動點按才會進入新增連結頁面。</p>
-          </section>
-          <section class="legal-section">
-            <h2>4. 系統分享匯入與裝置功能</h2>
-            <p>用戶從Android系統分享選單選擇LinkMemo時，Android會把所選文字或連結交給LinkMemo。LinkMemo會擷取支援的連結並顯示匯入頁面，由用戶檢查後決定是否儲存。</p>
-            <p>相簿、相機及檔案選擇器只用於用戶主動選擇附件、儲存二維碼或選擇備份。用戶從LinkMemo分享或匯出內容時，Android會把內容交給用戶選擇的第三方應用程式，後續處理受該第三方政策約束。</p>
-          </section>
-          <section class="legal-section">
-            <h2>5. 網絡請求與第三方</h2>
-            <p>為取得網頁標題、描述、圖片或來源資料、解析短連結或開啟原連結，LinkMemo可能連接目標網站及公開元資料服務。這些服務可能收到請求網址、裝置IP地址、User-Agent及正常提供網頁所需的資料。</p>
-            <p>第三方網站及應用程式按照其自身政策處理資料。LinkMemo無法控制其內容、跳轉、可用性、安全性或私隱做法。</p>
-          </section>
-          <section class="legal-section">
-            <h2>6. 本機備份、還原與匯出</h2>
-            <p>LinkMemo備份包含普通及私密連結、資料夾、有效附件與應用程式設定，但不包含最近刪除。匯入只會在用戶選擇檔案並確認後進行，並會完全取代目標裝置中的LinkMemo資料。</p>
-            <p>裝置設有系統憑據時，匯出會要求Android系統驗證；沒有系統憑據時，匯出按照應用程式目前的免憑據規則進行。備份沒有獨立密碼保護，任何取得備份的人都可能匯入及讀取普通與私密內容。用戶負責安全保管及刪除匯出的副本。</p>
-          </section>
-          <section class="legal-section">
-            <h2>7. Google Play Billing</h2>
-            <p>Google Play Billing負責完整版結帳及付款處理、官方促銷碼兌換、依Google Play規則進行的退款，以及透過Google Play帳戶還原購買。LinkMemo會接收在本機解鎖或還原完整版所需的商品識別碼、購買狀態及權益資料。</p>
-            <p>LinkMemo不會接收或保存銀行帳戶、扣賬卡或信用卡資料、付款密碼，也不會接收用戶在Google Play輸入的促銷碼或兌換碼。完整版為一次性買斷，不是訂閱且不會自動續費。由於LinkMemo沒有購買驗證伺服器，本機客戶端無法承諾立即識別每次退款或權益撤銷。</p>
-          </section>
-          <section class="legal-section">
-            <h2>8. 資料保留、匯出、清除與刪除</h2>
-            <ul>
-              <li>本機資料會保留在裝置上，直至用戶編輯或刪除、清除LinkMemo應用程式資料或解除安裝LinkMemo。</li>
-              <li>一般刪除的連結會進入最近刪除，並計劃於30日後永久清除；用戶可提前永久刪除。</li>
-              <li>備份功能是目前提供的本機匯出方式，匯出的備份檔案由用戶控制。</li>
-              <li>清除應用程式資料或解除安裝LinkMemo會移除應用程式本機資料，但仍受Android及裝置備份行為影響；已儲存或分享至其他位置的備份副本不會因此刪除。</li>
-              <li>由於沒有LinkMemo帳戶或雲端服務，因此不存在需要刪除的LinkMemo伺服器帳戶或雲端記錄。</li>
-            </ul>
-          </section>
-          <section class="legal-section">
-            <h2>9. 資料分享、出售、政策變更與聯絡</h2>
-            <p>LinkMemo不會出售用戶資料，也不會把本機內容上傳至LinkMemo自有伺服器。只有用戶主動使用網頁資料取得、開啟連結、系統分享、備份傳輸或Google Play Billing等功能時，相關資料才會按功能需要交予對應第三方。</p>
-            <p>LinkMemo並非特別為兒童設計。如政策有重大變更，會更新文件版本、生效日期或在應用程式中提供適當通知。私隱問題請聯絡<a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a>。</p>
-          </section>
+          <header class="document-header"><h1>LinkMemo 私隱政策</h1><p class="document-summary">LinkMemo是一款本機優先的連結管理應用程式。本政策說明本機功能、LinkMemo帳戶、Google Play購買及可選AI增強實際處理的資料。</p><dl class="document-meta"><div><dt>文件版本</dt><dd>1.2</dd></div><div><dt>生效日期</dt><dd><time datetime="2026-08-17">2026年8月17日</time></dd></div><div><dt>開發者</dt><dd>LinkMemo（香港）</dd></div></dl></header>
+          <section class="legal-section"><h2>1. 本機優先的資料</h2><p>連結、標題、網頁摘要、備註、資料夾、置頂和私密狀態、附件、錄音、網頁圖片快取及設定保存在裝置本機。LinkMemo帳戶不會同步本機連結資料庫、資料夾、附件、錄音、私密空間資料庫或備份。</p></section>
+          <section class="legal-section"><h2>2. 裝置功能與本機保護</h2><p>本機資料庫和備註附件使用裝置產生並保存在系統安全儲存區的金鑰保護。私密空間使用Android系統身分驗證；LinkMemo只接收成功、取消或失敗結果，不讀取指紋、臉部、鎖定畫面密碼或圖形。剪貼簿、分享、相簿、相機、麥克風及檔案存取只在功能開啟或由用戶主動操作時使用。</p></section>
+          <section class="legal-section"><h2>3. LinkMemo帳戶與伺服器資料</h2><p>本機核心功能毋須登入。Google登入和Supabase處理身分驗證所需權杖；伺服器保存Supabase UID及Google提供的電郵、顯示名稱等必要帳戶資料。帳戶用於購買歸屬、跨裝置恢復Full與LinkMemo Pro權益、AI額度和帳戶刪除。Google Play付款帳戶可與LinkMemo登入Google帳戶不同。</p></section>
+          <section class="legal-section"><h2>4. 網頁分析與Gemini AI</h2><p>一般元資料分析會連線至目標網站及公開介面。用戶主動運行LinkMemo Pro AI增強時，經Supabase Edge Function傳送給Google Gemini的資料可能包括標題、描述、來源網站和網域、完整或標準化URL、最多約4000字元的正文摘錄、候選圖片URL與說明，以及必要且可安全取得時的一張代表圖片。Gemini不會獲授權登入網站，此功能不使用Google Search，也不觀看影片。</p><p>私密空間資料傳送前會顯示明確提示，用戶可選擇不再提示。原始附件、錄音、購買憑證、登入憑證、完整本機資料庫和無關個人資料不會傳送給AI。AI輸出保存在連結的本機記錄。</p></section>
+          <section class="legal-section"><h2>5. Google Play購買與伺服器權益</h2><p>Google Play負責Full和LinkMemo Pro的付款、訂閱、退款與撤銷。購買憑證由LinkMemo伺服器透過Google Play Developer API驗證並綁定Supabase UID。orderId或purchaseToken並非帳戶身分；一個購買憑證只能綁定一個LinkMemo帳戶且不會自動轉移。伺服器權益是長期權威，應用程式只保存最近一次可信離線快取。</p></section>
+          <section class="legal-section"><h2>6. 備份與本機保留</h2><p>完整備份可能包含一般和私密連結、資料夾、有效附件及設定，不包含最近刪除。所有用戶均可匯出，匯入需要Full並採合併方式。備份沒有獨立密碼保護，應妥善保管。本機資料保留至用戶刪除、清除應用程式資料或解除安裝；已匯出或分享的副本由用戶管理。</p></section>
+          <section id="account-deletion-zh-tw" class="legal-section"><h2>7. 刪除LinkMemo帳戶</h2><p>用戶可在LinkMemo內申請刪除，或電郵至<a href="mailto:zengqb2315509134@gmail.com?subject=LinkMemo%20帳戶刪除申請">zengqb2315509134@gmail.com</a>。電郵申請應使用帳戶關聯電郵並完成合理歸屬確認。請勿傳送密碼、登入權杖、purchaseToken或付款憑證。</p><p>沒有有效LinkMemo Pro週期時，伺服器帳戶及相關資料會盡快刪除；如仍有已生效的免費或付費週期，LinkMemo會先停止後續自動續訂，並計劃在目前週期結束後刪除。刪除後Full、LinkMemo Pro、Gift記錄和AI額度不能恢復或轉移。本機連結、附件、錄音和備份不會被遠端刪除。</p><p>原始購買Token會刪除；為防止舊購買被其他帳戶重新認領，可能保留不再關聯有效帳戶、不可重新綁定的Token雜湊及最少狀態記錄。</p></section>
+          <section class="legal-section"><h2>8. 服務供應商、安全與聯絡</h2><p>LinkMemo不出售用戶資料。Google提供登入和Google Play，Supabase提供身分、資料庫和Edge Functions，Google Gemini處理AI請求。LinkMemo不在應用程式記錄中保存完整Authorization、purchaseToken、Gemini密鑰或完整AI請求正文；伺服器可保存經縮減或雜湊化的事件識別、錯誤類別、用量和安全資訊。</p><p>開發者：LinkMemo<br>所在地：香港<br>私隱及刪除聯絡電郵：<a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a></p></section>
         </article>
 
         <article id="ja" class="language-panel" lang="ja">
-          <header class="document-header">
-            <h1>LinkMemo プライバシーポリシー</h1>
-            <p class="document-summary">LinkMemoはローカル保存を基本とするリンク管理アプリです。本ポリシーは、データへのアクセス、処理、保存および保護について説明します。</p>
-            <dl class="document-meta">
-              <div><dt>文書バージョン</dt><dd>1.0</dd></div>
-              <div><dt>施行日</dt><dd><time datetime="2026-07-28">2026年7月28日</time></dd></div>
-              <div><dt>開発者名</dt><dd>LinkMemo（香港）</dd></div>
-              <div><dt>プライバシー連絡先</dt><dd><a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a></dd></div>
-            </dl>
-          </header>
-          <section class="legal-section">
-            <h2>1. 端末内に保存するデータ</h2>
-            <p>LinkMemoは、利用者が追加したリンク、タイトル、ページ概要、提供元情報、メモ、フォルダ、お気に入り、固定状態、非公開フラグ、添付ファイル、ならびに言語、テーマ、文字サイズ、並び順、表示形式、クリップボード検出、プライベートスペースの自動ロックなどの設定を端末内に保存します。</p>
-            <p>LinkMemoは、LinkMemoアカウント、独自のクラウド同期サービス、またはこれらの内容を保存するLinkMemoサーバーを提供していません。</p>
-          </section>
-          <section class="legal-section">
-            <h2>2. ローカルデータベースと添付ファイルの保護</h2>
-            <p>アプリのデータベースとメモの添付ファイルは、端末内で生成されAndroidの安全なシステムストレージに保存された鍵で暗号化されます。この保護は端末内のデータに適用され、書き出したバックアップには独立したバックアップ用パスワードがありません。</p>
-            <p>プライベートスペースはAndroidのシステム認証を利用します。LinkMemoが受け取るのは認証結果のみで、指紋、顔情報、端末パスワード、PIN、パターンを読み取りまたは保存しません。システム認証情報がない端末では、アプリの現在の認証情報なしの動作に従います。端末またはローカル保護によって完全な安全性を保証することはできません。</p>
-          </section>
-          <section class="legal-section">
-            <h2>3. クリップボードのリンク検出</h2>
-            <p>「クリップボードを自動検出」が有効な場合、LinkMemoはアプリの起動時または前面に戻った時にクリップボードのプレーンテキストを読み取り、最初の対応ウェブリンクの抽出を試みます。空のテキスト、有効なリンクを含まないテキスト、処理済みのクリップボード内容、保存済みの重複リンクは無視されます。</p>
-            <p>LinkMemoはバックグラウンドでクリップボードを継続監視せず、検出したリンクを自動保存しません。短時間の取込み案内を表示し、利用者が選択した場合にのみリンク追加画面へ進みます。</p>
-          </section>
-          <section class="legal-section">
-            <h2>4. システム共有による取込みと端末機能</h2>
-            <p>利用者がAndroidの共有メニューからLinkMemoを選ぶと、Androidは選択されたテキストまたはリンクをLinkMemoへ渡します。LinkMemoは対応するリンクを抽出して取込み画面を表示し、利用者は保存前に内容を確認できます。</p>
-            <p>写真、カメラ、ファイル選択は、利用者が添付ファイルの選択、QRコードの保存、バックアップの選択を開始した場合にのみ使用します。LinkMemoから内容を共有または書き出す場合、Androidは利用者が選択した第三者アプリへ内容を渡し、その後は当該第三者のポリシーに従って処理されます。</p>
-          </section>
-          <section class="legal-section">
-            <h2>5. ネットワーク要求と第三者</h2>
-            <p>ページのタイトル、説明、画像、提供元情報の取得、短縮リンクの解決、元リンクの表示のため、LinkMemoは対象ウェブサイトおよび公開メタデータサービスへ接続する場合があります。これらのサービスは、要求されたURL、端末のIPアドレス、User-Agent、その他ページ提供に通常必要な情報を受け取る場合があります。</p>
-            <p>第三者のウェブサイトとアプリは、それぞれのポリシーに従ってデータを処理します。LinkMemoはその内容、リダイレクト、可用性、安全性またはプライバシー慣行を管理しません。</p>
-          </section>
-          <section class="legal-section">
-            <h2>6. ローカルバックアップ、復元、書き出し</h2>
-            <p>LinkMemoのバックアップには、通常および非公開リンク、フォルダ、有効な添付ファイル、アプリ設定が含まれ、「最近削除」項目は含まれません。読込みは利用者がファイルを選択して確認した後にのみ実行され、対象端末のLinkMemoデータを完全に置き換えます。</p>
-            <p>端末認証情報がある場合、書き出し前にAndroidシステム認証を求めます。認証情報がない場合は、アプリの現在の認証情報なしの動作に従います。バックアップには独立したパスワード保護がなく、取得者が通常および非公開内容を読み込んで閲覧できる可能性があります。書き出したコピーの安全な保管と削除は利用者の責任です。</p>
-          </section>
-          <section class="legal-section">
-            <h2>7. Google Play Billing</h2>
-            <p>Google Play Billingは、完全版の購入手続と支払処理、公式プロモーションコードの利用、Google Play規則に基づく返金、Google Playアカウントを通じた購入の復元を処理します。LinkMemoは、端末内で完全版を解除または復元するために必要な商品ID、購入状態および権利情報を受け取ります。</p>
-            <p>LinkMemoは、銀行口座、デビットカードまたはクレジットカードの情報、支払パスワード、Google Playに入力されたプロモーションコードまたは引換コードを受け取り、保存しません。完全版は自動更新のない一回購入です。LinkMemoには購入検証サーバーがないため、ローカルクライアントがすべての返金または権利取消しを直ちに検出することは保証できません。</p>
-          </section>
-          <section class="legal-section">
-            <h2>8. データの保持、書き出し、消去、削除</h2>
-            <ul>
-              <li>ローカルデータは、利用者による編集または削除、LinkMemoのアプリデータ消去、LinkMemoのアンインストールまで端末に保持されます。</li>
-              <li>通常の削除を行ったリンクは「最近削除」へ移動し、30日後に完全削除される予定です。利用者はそれ以前に完全削除できます。</li>
-              <li>バックアップ機能が現在提供されるローカルの書き出し方法であり、書き出したファイルは利用者が管理します。</li>
-              <li>アプリデータの消去またはアンインストールはローカルのアプリデータを削除しますが、Androidおよび端末のバックアップ動作の影響を受けます。別の場所へ保存または共有済みのバックアップは削除されません。</li>
-              <li>LinkMemoアカウントまたはクラウドサービスがないため、削除対象となるLinkMemo側のサーバーアカウントやクラウド記録はありません。</li>
-            </ul>
-          </section>
-          <section class="legal-section">
-            <h2>9. データ共有、販売、変更、連絡先</h2>
-            <p>LinkMemoは利用者データを販売せず、ローカル内容をLinkMemo所有サーバーへアップロードしません。第三者へデータが渡るのは、ページ情報の取得、リンクの表示、システム共有、バックアップ転送、Google Play Billingなどを利用者が開始し、機能上必要な場合に限られます。</p>
-            <p>LinkMemoは児童専用のサービスではありません。ポリシーに重要な変更がある場合、文書バージョン、施行日、またはアプリ内の適切な通知を更新します。プライバシーに関するお問い合わせは<a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a>までお送りください。</p>
-          </section>
+          <header class="document-header"><h1>LinkMemo プライバシーポリシー</h1><p class="document-summary">LinkMemoはローカル優先のリンク管理アプリです。本ポリシーは、ローカル機能、LinkMemoアカウント、Google Play購入、任意のAI強化で処理するデータを説明します。</p><dl class="document-meta"><div><dt>文書バージョン</dt><dd>1.2</dd></div><div><dt>発効日</dt><dd><time datetime="2026-08-17">2026年8月17日</time></dd></div><div><dt>開発者</dt><dd>LinkMemo（香港）</dd></div></dl></header>
+          <section class="legal-section"><h2>1. ローカル優先データ</h2><p>リンク、タイトル、要約、メモ、フォルダ、固定・非公開状態、添付、録音、画像キャッシュ、設定は端末に保存します。LinkMemoアカウントは、ローカルのリンクデータベース、フォルダ、添付、録音、プライベートスペース、バックアップを同期しません。</p></section>
+          <section class="legal-section"><h2>2. 端末機能とローカル保護</h2><p>データベースと添付は端末生成の鍵で保護します。プライベートスペースはAndroidシステム認証を使用し、LinkMemoは成功・取消・失敗だけを受け取り、生体情報や画面ロック認証情報を読み取りません。クリップボード、共有、写真、カメラ、マイク、ファイルは、機能が有効またはユーザーが開始した場合にのみ使用します。</p></section>
+          <section class="legal-section"><h2>3. LinkMemoアカウントとサーバーデータ</h2><p>ローカル基本機能はログイン不要です。GoogleログインとSupabaseは認証用トークンを処理し、サーバーはSupabase UID、メール、表示名など必要な情報を保存します。アカウントは購入の帰属、別端末でのFull・LinkMemo Pro権利、AI回数、削除に使用します。Google Play支払いアカウントはLinkMemoログイン用Googleアカウントと異なっても構いません。</p></section>
+          <section class="legal-section"><h2>4. ウェブ解析とGemini AI</h2><p>通常解析は対象サイトと公開エンドポイントへ接続します。AI強化では、タイトル、説明、参照元、完全または正規化URL、最大約4,000文字の本文抜粋、候補画像URLと説明、必要かつ安全な場合の代表画像1枚をSupabase Edge Function経由でGoogle Geminiへ送信する場合があります。サイトへのログイン権限は与えず、Google Searchを使用せず、動画を視聴しません。元の添付、録音、購入・ログイン認証情報、データベース全体は送信しません。</p></section>
+          <section class="legal-section"><h2>5. Google Play購入と権利</h2><p>Google PlayがFullとLinkMemo Proの支払い、購読、返金、取消を処理します。購入証明はGoogle Play Developer APIで検証しSupabase UIDへ紐付けます。1つの証明は1つのLinkMemoアカウントにのみ紐付き、自動移転されません。サーバー権利を正とし、端末は直近の信頼できる状態だけをキャッシュします。</p></section>
+          <section class="legal-section"><h2>6. バックアップとローカル保持</h2><p>完全バックアップには通常・非公開リンク、フォルダ、有効な添付、設定が含まれる場合があります。書き出しは全ユーザーが利用でき、読込みにはFullが必要で、既存データへマージします。独立したパスワードはありません。ローカルデータは削除、アプリデータ消去、アンインストールまで保持され、書き出したコピーはユーザーが管理します。</p></section>
+          <section id="account-deletion-ja" class="legal-section"><h2>7. LinkMemoアカウントの削除</h2><p>アプリ内、または<a href="mailto:zengqb2315509134@gmail.com?subject=LinkMemo%20account%20deletion%20request">zengqb2315509134@gmail.com</a>へのメールで申請できます。アカウントに関連するメールを使用し、合理的な所有確認を完了してください。パスワード、ログイントークン、purchaseToken、支払い情報を送らないでください。</p><p>有効なLinkMemo Pro期間がなければ速やかに削除します。有効な無料・有料期間がある場合は今後の自動更新を停止し、期間終了後に削除予定です。削除後、Full、LinkMemo Pro、Gift、AI回数は復元・移転できません。端末内データは遠隔削除されません。生の購入Tokenは削除し、旧購入の再利用防止に必要な再紐付け不能のTokenハッシュと最小状態を保持する場合があります。</p></section>
+          <section class="legal-section"><h2>8. 委託先、安全性、連絡先</h2><p>LinkMemoはデータを販売しません。GoogleはログインとGoogle Play、Supabaseは認証・データベース・Edge Functions、Google GeminiはAI処理を提供します。完全なAuthorization、purchaseToken、Geminiキー、AI本文全体はアプリログに保存しません。運用、安全、不正防止に必要な縮小またはハッシュ化した記録を保持する場合があります。</p><p>開発者：LinkMemo<br>所在地：香港<br>プライバシー・削除窓口：<a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a></p></section>
         </article>
       </div>
     </main>
-
-    <footer class="site-footer">
-      <span>© 2026 LinkMemo</span>
-      <div class="footer-links">
-        <a href="mailto:zengqb2315509134@gmail.com">zengqb2315509134@gmail.com</a>
-        <a href="index.html">Overview</a>
-        <a href="terms.html">Terms</a>
-      </div>
-    </footer>
+    <footer class="site-footer"><span>© 2026 LinkMemo</span><div class="footer-links"><a href="index.html">Overview</a><a href="terms.html">Terms</a></div></footer>
   </body>
 </html>

@@ -5,8 +5,8 @@ Static public legal pages for LinkMemo, prepared for GitHub Pages.
 ## Files
 
 - `index.html` — legal-site overview
-- `privacy.html` — privacy policy
-- `terms.html` — terms of use
+- `privacy.html` — privacy policy and account-deletion instructions
+- `terms.html` — user agreement
 - `styles.css` — responsive styling and no-JavaScript language views
 
 The pages are available in English, Simplified Chinese, Traditional Chinese,
@@ -19,6 +19,11 @@ Open `index.html` directly, or serve the directory with any static HTTP server.
 
 ## GitHub Pages
 
-After the owner creates the public `linkmemo-legal` repository, upload these
-files to the repository root and configure GitHub Pages to publish from the
-default branch root.
+Published from the `main` branch root:
+
+- Legal overview: <https://anomaly2315.github.io/Linkmemo-legal/>
+- Account deletion (Simplified Chinese):
+  <https://anomaly2315.github.io/Linkmemo-legal/privacy.html#account-deletion-zh-cn>
+
+Account deletion instructions are intentionally included in the public privacy
+policy rather than maintained as a separate page.
