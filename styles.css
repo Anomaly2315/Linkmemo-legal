@@ -198,6 +198,14 @@ a:focus-visible {
   display: block;
 }
 
+.language-stack:has(.language-panel :target) .language-panel {
+  display: none;
+}
+
+.language-stack:has(.language-panel :target) .language-panel:has(:target) {
+  display: block;
+}
+
 .document-header {
   padding-bottom: 2.2rem;
   border-bottom: 1px solid var(--border);
@@ -257,6 +265,17 @@ a:focus-visible {
   color: #34425b;
 }
 
+.document-action a {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--accent);
+  border-radius: 0.45rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .legal-section ul {
   margin: 0.85rem 0 0;
   padding-left: 1.35rem;
@@ -300,6 +319,13 @@ a:focus-visible {
 .overview-link span {
   display: block;
   color: var(--muted);
+}
+
+.overview-link small {
+  display: block;
+  margin-top: 1rem;
+  color: var(--muted);
+  font-weight: 650;
 }
 
 .document-footer {
@@ -346,6 +372,15 @@ a:focus-visible {
   .document-meta,
   .overview-grid {
     grid-template-columns: 1fr;
+  }
+
+  .language-switcher {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .language-switcher a {
+    justify-content: center;
   }
 
   .document-meta {
